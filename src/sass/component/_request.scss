@@ -1,0 +1,67 @@
+.request {
+  background: #8D7370;
+  display: flex;
+  gap: 20px;
+}
+
+.wrapper {}
+
+.request__form {}
+
+.request__capt {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+}
+
+.request__info {
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  width: 507px;
+  margin-bottom: 44px;
+}
+
+.request__name::placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+}
+
+.request__phone::placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+}
+
+.request__button {
+  background: #CC8B86;
+  width: 309.14px;
+  height: 74px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  border: none;
+
+  &:active {
+    border: none;
+    outline: none;
+    font-size: larger;
+    transition: all 1s ease-out;
+  }
+}
+
+.request__map {}
+
+.input__p {
+  margin-bottom: 31px;
+}
+
+.request__main-form {
+  padding-bottom: 186px;
+}

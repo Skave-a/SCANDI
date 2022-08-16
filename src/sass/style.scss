@@ -1,0 +1,22 @@
+// abstract
+@import "abstract/_constants.scss";
+@import "abstract/_mixins.scss";
+
+// base
+@import "base/_base.scss";
+@import "base/_buttons.scss";
+@import "base/_fonts.scss";
+
+// Components
+@import "component/_about.scss";
+@import "component/_footer.scss";
+@import "component/_main.scss";
+@import "component/_request.scss";
+@import "component/_reviews.scss";
+@import "component/_team.scss";
+@import "component/_works.scss";
+
+
+// layouts
+@import "layouts/_wrapper.scss";
+@import "layouts/_slider.scss";
